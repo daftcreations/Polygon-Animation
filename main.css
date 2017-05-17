@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:deepskyblue;
+}
+#glasses{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9;
+}
+#rightGlass,#leftGlass{
+    height: 200px;
+    width: 600px;
+    position: absolute;
+    top:34.5%;
+    left: 28%;
+    -webkit-clip-path:polygon(94% 15%,95% 33%,94% 64%,90% 81%,84% 94%,75% 97%,69% 93%,64% 85%,60% 72%,57% 57%,55% 35%,57% 19%,61% 11%,68% 5%,76% 3%,85% 4%);
+    overflow: hidden;
+}
+#leftGlass{
+    left:28.5%;
+    transform: rotateY(180deg);
+}
+
+
+
+
+
+
